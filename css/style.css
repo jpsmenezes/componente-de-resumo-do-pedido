@@ -1,0 +1,24 @@
+:root{
+    --background-blue: hsl(225, 100%, 94%);
+    --blue:  hsl(245, 75%, 52%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    background: var(--background-blue) url(../images/pattern-background-desktop.svg) no-repeat;
+    max-width: 1440px;  
+    padding: 100px 0;
+}
+main{
+    width: 450px;
+    height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;    
+}
+header.hero img{
+    border-radius: 20px 20px 0 0;
+}
