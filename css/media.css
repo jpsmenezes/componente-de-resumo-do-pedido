@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px){
+    main{
+        width: 90%;
+    }
+    header.hero img{        
+        width: 100%;
+    }
+    section.contain{
+        padding: 50px 4vw;
+    }
+    section .box{       
+        padding: 0 2%;       
+    }
+}

@@ -19,6 +19,7 @@ html{
 body{    
     background: var(--background-blue) url(../images/pattern-background-desktop.svg) no-repeat;
     max-width: 1440px;  
+    min-width: 360px;
     padding: 100px 0;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.6rem;
