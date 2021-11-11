@@ -49,6 +49,7 @@ section.contain > p{
     color: var(--Very-desaturated-blue);
     font-weight: 500;
     margin-bottom: 30px;
+    font-size: 1.7rem;
 }
 section .box{
     display: flex;
