@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://jpsmenezes.github.io/componente-de-resumo-do-pedido/)
-- Live Site URL: [Add live site URL here](https://jpsmenezes.github.io/componente-de-resumo-do-pedido/)
+- Solution URL: [jpsmenezes.github.io/componente-de-resumo-do-pedido](https://jpsmenezes.github.io/componente-de-resumo-do-pedido/)
+- Live Site URL: [jpsmenezes.github.io/componente-de-resumo-do-pedido](https://jpsmenezes.github.io/componente-de-resumo-do-pedido/)
 
 ## My process
 
