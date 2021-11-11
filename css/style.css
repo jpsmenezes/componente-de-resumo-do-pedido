@@ -1,24 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 :root{
     --background-blue: hsl(225, 100%, 94%);
     --blue:  hsl(245, 75%, 52%);
+    --pale-blue:hsl(225, 100%, 98%);
+    --dark-blue:hsl(223, 47%, 23%);
+    --Desaturated-blue:hsl(224, 23%, 55%);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    /*Cada 1rem será considerado 10px*/
+    font-size: 62.5%;
+}
 body{    
     background: var(--background-blue) url(../images/pattern-background-desktop.svg) no-repeat;
     max-width: 1440px;  
     padding: 100px 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
 }
 main{
     width: 450px;
     height: 700px;
     background-color: #fff;
     margin: 0 auto;
-    border-radius: 20px;    
+    border-radius: 20px;  
+    text-align: center;  
 }
 header.hero img{
     border-radius: 20px 20px 0 0;
+}
+section.contain{
+    padding: 50px;
+}
+section.contain h1{
+    color:var(--dark-blue);
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+section.contain > p{
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+section .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: var(--pale-blue);
+    width: 360px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+section .box .txt{
+    margin-left: -90px;
+}
+section .box .txt p{
+    color:var(--dark-blue);
+    font-weight: 900;
+}
+section .box span{
+    display: block;
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+}
+section .box a{
+   color: var(--blue);
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+section .box a:hover{
+    color: var(--Desaturated-blue);
+    text-decoration: none;
 }
