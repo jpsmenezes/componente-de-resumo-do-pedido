@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [jpsmenezes.github.io/componente-de-resumo-do-pedido](https://jpsmenezes.github.io/componente-de-resumo-do-pedido/)
+- Solution URL: [www.frontendmentor.io/solutions](https://www.frontendmentor.io/solutions/html-and-css-efaUQnsZa)
 - Live Site URL: [jpsmenezes.github.io/componente-de-resumo-do-pedido](https://jpsmenezes.github.io/componente-de-resumo-do-pedido/)
 
 ## My process
