@@ -50,6 +50,7 @@ section.contain > p{
     font-weight: 500;
     margin-bottom: 30px;
     font-size: 1.7rem;
+    line-height: 1.6;
 }
 section .box{
     display: flex;
@@ -64,7 +65,9 @@ section .box{
     border-radius: 20px;
 }
 section .box .txt{
-    margin-left: -90px;
+   flex-grow: 4 ;
+   text-align: left;
+   padding-left: 15px;  
 }
 section .box .txt p{
     color:var(--dark-blue);
